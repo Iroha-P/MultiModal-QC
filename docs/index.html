@@ -175,6 +175,8 @@
       color: var(--muted);
       font-size: clamp(17px, 1.5vw, 20px);
       line-height: 1.8;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 34px; }
@@ -409,14 +411,14 @@
     }
 
     @media (max-width: 620px) {
-      .shell { width: min(100% - 24px, 1240px); }
+      .shell { width: calc(100vw - 24px); max-width: calc(100vw - 24px); }
       .nav-inner { height: 58px; }
       .nav .button { display: none; }
       .hero { padding-top: 42px; }
       .hero-grid { gap: 28px; }
       h1 { font-size: 36px; line-height: 1.02; }
       .blue-text { text-decoration-thickness: 8px; }
-      .lead { max-width: 100%; font-size: 16px; line-height: 1.72; }
+      .lead { max-width: calc(100vw - 24px); font-size: 16px; line-height: 1.72; word-break: break-all; }
       .tag { letter-spacing: 0.12em; }
       .actions .button { width: 100%; }
       .hero-art { padding: 10px; }
@@ -424,7 +426,7 @@
       .score b { font-size: 24px; }
       .metric-band, .gallery, .steps, .image-stack { grid-template-columns: 1fr; }
       .metric-band { padding: 24px; }
-      .panel { padding: 22px; }
+      .panel { padding: 22px; overflow: hidden; }
       .row { grid-template-columns: 1fr; gap: 0; padding: 12px 0; }
       .row.header { display: none; }
       .cell { padding: 8px 16px; }
