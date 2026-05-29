@@ -186,6 +186,7 @@
       border: 1px solid var(--line);
       background: linear-gradient(180deg, #ffffff, #f7fbff);
       box-shadow: var(--shadow);
+      overflow: hidden;
     }
 
     .hero-art img {
@@ -409,10 +410,18 @@
 
     @media (max-width: 620px) {
       .shell { width: min(100% - 24px, 1240px); }
+      .nav-inner { height: 58px; }
+      .nav .button { display: none; }
       .hero { padding-top: 42px; }
-      h1 { font-size: 42px; }
+      .hero-grid { gap: 28px; }
+      h1 { font-size: 36px; line-height: 1.02; }
+      .blue-text { text-decoration-thickness: 8px; }
+      .lead { max-width: 100%; font-size: 16px; line-height: 1.72; }
       .tag { letter-spacing: 0.12em; }
       .actions .button { width: 100%; }
+      .hero-art { padding: 10px; }
+      .score { right: 12px; bottom: 12px; min-width: 88px; padding: 12px; }
+      .score b { font-size: 24px; }
       .metric-band, .gallery, .steps, .image-stack { grid-template-columns: 1fr; }
       .metric-band { padding: 24px; }
       .panel { padding: 22px; }
