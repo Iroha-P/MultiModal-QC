@@ -330,7 +330,7 @@ footer { border-top: 1px solid var(--line); padding: 38px 0; color: var(--muted)
 @keyframes scan { 0%, 36% { transform: translateX(-130%); } 64%, 100% { transform: translateX(130%); } }
 @keyframes drift { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(-38px, 28px, 0); } }
 @keyframes pulse-line { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
-@keyframes fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fade-up { from { opacity: 1; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
