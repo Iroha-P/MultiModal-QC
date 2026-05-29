@@ -369,7 +369,9 @@
     @media (max-width: 560px) {
       .wrap { width: min(100% - 24px, 1180px); }
       .hero { padding-top: 38px; }
-      h1 { font-size: 42px; }
+      h1 { font-size: 39px; overflow-wrap: anywhere; }
+      .lead { max-width: calc(100vw - 42px); font-size: 18px; word-break: break-all; }
+      .console { max-width: calc(100vw - 24px); }
       .console-head span { display: none; }
       .stats, .inspect-row, .workflow, .metrics { grid-template-columns: 1fr; }
       .hero-actions .button { width: 100%; }
