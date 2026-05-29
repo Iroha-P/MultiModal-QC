@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MultiModal-QC | Industrial Multimodal Quality Control</title>
+  <meta name="description" content="MultiModal-QC is an industrial multimodal quality-control demo with Qwen2-VL QLoRA, Agent Pipeline, FastAPI, and Gradio." />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #07100f;
+      --panel: #0e1b1a;
+      --panel-2: #132421;
+      --text: #ecfff9;
+      --muted: #9cb8b1;
+      --line: rgba(183, 255, 229, 0.18);
+      --aqua: #40e6c8;
+      --amber: #ffc857;
+      --red: #ff6b63;
+      --steel: #8aa8bc;
+      --shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        linear-gradient(180deg, rgba(9, 18, 17, 0.86), rgba(7, 16, 15, 0.96)),
+        radial-gradient(circle at 12% 0%, rgba(64, 230, 200, 0.18), transparent 34%),
+        var(--bg);
+      color: var(--text);
+      letter-spacing: 0;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    img { max-width: 100%; display: block; }
+
+    .wrap { width: min(1180px, calc(100% - 36px)); margin: 0 auto; }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(18px);
+      background: rgba(7, 16, 15, 0.72);
+    }
+
+    .nav-inner {
+      height: 66px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+      font-weight: 800;
+    }
+
+    .brand img {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: #001615;
+    }
+
+    .brand span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .nav-links a {
+      padding: 9px 11px;
+      border-radius: 8px;
+    }
+
+    .nav-links a:hover { background: rgba(255, 255, 255, 0.06); color: var(--text); }
+
+    .hero {
+      min-height: 92vh;
+      display: grid;
+      align-items: center;
+      padding: 56px 0 34px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(7, 16, 15, 0.96) 0%, rgba(7, 16, 15, 0.78) 44%, rgba(7, 16, 15, 0.42) 100%),
+        url("assets/demo/hero-qc.png") center right / cover no-repeat;
+      opacity: 0.84;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 140px;
+      background: linear-gradient(180deg, transparent, var(--bg));
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 0.96fr) minmax(360px, 0.78fr);
+      gap: 42px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--aqua);
+      border: 1px solid rgba(64, 230, 200, 0.32);
+      background: rgba(3, 31, 29, 0.64);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--aqua);
+      box-shadow: 0 0 0 7px rgba(64, 230, 200, 0.12);
+    }
+
+    h1 {
+      margin: 24px 0 18px;
+      max-width: 780px;
+      font-size: clamp(46px, 8vw, 104px);
+      line-height: 0.92;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 680px;
+      color: #c8ded8;
+      font-size: clamp(18px, 2vw, 23px);
+      line-height: 1.62;
+      margin: 0 0 26px;
+    }
+
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 28px; }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.07);
+      font-weight: 800;
+    }
+
+    .button.primary {
+      color: #001b17;
+      background: linear-gradient(135deg, var(--aqua), #bbffe9);
+      border-color: rgba(187, 255, 233, 0.5);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      max-width: 690px;
+    }
+
+    .stat {
+      border: 1px solid var(--line);
+      background: rgba(4, 22, 21, 0.72);
+      border-radius: 8px;
+      padding: 14px;
+    }
+
+    .stat strong { display: block; font-size: 22px; color: var(--text); }
+
+    .stat span { display: block; margin-top: 4px; color: var(--muted); font-size: 13px; }
+
+    .console {
+      border: 1px solid rgba(137, 255, 220, 0.24);
+      border-radius: 8px;
+      background: rgba(3, 20, 19, 0.82);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .console-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .console-head b { color: var(--text); }
+
+    .console img {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .inspect-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      padding: 14px;
+    }
+
+    .chip {
+      min-height: 74px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.045);
+      padding: 12px;
+    }
+
+    .chip small { color: var(--muted); }
+
+    .chip b { display: block; margin-top: 8px; color: var(--aqua); }
+
+    section { padding: 84px 0; }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 28px;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(30px, 4vw, 54px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .section-head p {
+      margin: 0;
+      max-width: 520px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .workflow {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .step, .shot, .metric {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02));
+      overflow: hidden;
+    }
+
+    .step { padding: 22px; min-height: 230px; }
+
+    .step .num {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      color: #061311;
+      background: var(--amber);
+      font-weight: 900;
+    }
+
+    .step h3, .shot h3 { margin: 20px 0 10px; font-size: 20px; }
+
+    .step p, .shot p, .metric p { color: var(--muted); line-height: 1.65; margin: 0; }
+
+    .shots {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .shot img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-bottom: 1px solid var(--line);
+      background: #020908;
+    }
+
+    .shot.pad { padding: 22px; display: grid; gap: 14px; align-content: start; }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .metric { padding: 20px; }
+
+    .metric b {
+      display: block;
+      color: var(--amber);
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    .band {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.035);
+    }
+
+    footer {
+      padding: 42px 0;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+
+    @media (max-width: 900px) {
+      .hero { min-height: auto; }
+      .hero-grid, .shots { grid-template-columns: 1fr; }
+      .workflow, .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .nav-links { display: none; }
+      .console { max-width: 620px; }
+      .section-head { display: block; }
+      .section-head p { margin-top: 14px; }
+    }
+
+    @media (max-width: 560px) {
+      .wrap { width: min(100% - 24px, 1180px); }
+      .hero { padding-top: 38px; }
+      .stats, .inspect-row, .workflow, .metrics { grid-template-columns: 1fr; }
+      .hero-actions .button { width: 100%; }
+      section { padding: 58px 0; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#">
+        <img src="assets/demo/hero-qc.png" alt="" />
+        <span>MultiModal-QC</span>
+      </a>
+      <div class="nav-links">
+        <a href="#pipeline">Pipeline</a>
+        <a href="#demo">Demo</a>
+        <a href="#results">Results</a>
+        <a href="https://github.com/Iroha-P/MultiModal-QC">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow"><i class="pulse"></i> Qwen2-VL + QLoRA industrial inspection</span>
+        <h1>MultiModal-QC</h1>
+        <p class="lead">面向作品集展示的工业多模态质检系统：图像/视频输入经过 Qwen2-VL 微调模型和可解释 Agent Pipeline，输出缺陷判断、结构化记录与中文质检报告。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/Iroha-P/MultiModal-QC">Open Repository</a>
+          <a class="button" href="https://github.com/Iroha-P/MultiModal-QC/releases">Download Release</a>
+        </div>
+        <div class="stats" aria-label="project highlights">
+          <div class="stat"><strong>89.02%</strong><span>Qwen2-VL + QLoRA accuracy</span></div>
+          <div class="stat"><strong>4-step</strong><span>perceive / detect / decide / report</span></div>
+          <div class="stat"><strong>FastAPI</strong><span>Gradio console with SQLite history</span></div>
+        </div>
+      </div>
+      <aside class="console" aria-label="inspection console preview">
+        <div class="console-head"><b>Inspection Console</b><span>live demo view</span></div>
+        <img src="assets/demo-gradio-inspect.png" alt="MultiModal-QC Gradio inspection console" />
+        <div class="inspect-row">
+          <div class="chip"><small>Decision</small><b>Defect Detected</b></div>
+          <div class="chip"><small>Severity</small><b>Medium</b></div>
+          <div class="chip"><small>Export</small><b>CSV + SQLite</b></div>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section id="pipeline">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Agent Pipeline</h2>
+          <p>不是只给一个分类标签，而是把工业质检拆成可读、可复盘的四个阶段，方便演示模型判断依据和业务落地路径。</p>
+        </div>
+        <div class="workflow">
+          <article class="step"><div class="num">01</div><h3>Perceive</h3><p>读取图像或视频帧，整理视觉上下文和检测对象。</p></article>
+          <article class="step"><div class="num">02</div><h3>Detect</h3><p>基于 Qwen2-VL + QLoRA 输出缺陷类型、位置与置信信息。</p></article>
+          <article class="step"><div class="num">03</div><h3>Decide</h3><p>结合阈值、场景规则和历史记录形成质检结论。</p></article>
+          <article class="step"><div class="num">04</div><h3>Report</h3><p>生成中文说明、处置建议和可导出的结构化记录。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="band">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Demo Workbench</h2>
+          <p>FastAPI 提供后端接口，Gradio 承担可交互演示台，适合面试、课程展示和项目作品集快速讲清模型能力。</p>
+        </div>
+        <div class="shots">
+          <article class="shot">
+            <img src="assets/demo-defect-vis.jpg" alt="defect visualization result" />
+            <div class="shot pad"><h3>Defect Visualization</h3><p>检测结果会转成直观的视觉结果，和模型给出的文本报告一起展示。</p></div>
+          </article>
+          <div class="shot pad">
+            <img src="assets/demo-pipeline.png" alt="agent pipeline diagram" />
+            <h3>Traceable Reasoning</h3>
+            <p>内置历史记录、指标看板和 CSV 导出，让一次检测从输入到结论都能被追踪。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="results">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Measured Results</h2>
+          <p>MVTec-AD 测试集 n=173，公开仓库保留训练、评测、基线和部署脚本，大文件通过 Release 分发。</p>
+        </div>
+        <div class="metrics">
+          <article class="metric"><b>90.07%</b><p>Precision for Qwen2-VL + QLoRA inspection.</p></article>
+          <article class="metric"><b>0.893</b><p>F1 score with generated Chinese descriptions.</p></article>
+          <article class="metric"><b>2</b><p>Scenarios: MVTec defect inspection and drilling compliance entry.</p></article>
+          <article class="metric"><b>3</b><p>Model paths: VLM, ResNet50, YOLOv8n-cls baselines.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Built for the public portfolio edition of MultiModal-QC. Source, docs, and releases live on GitHub.</div>
+  </footer>
+</body>
+</html>
