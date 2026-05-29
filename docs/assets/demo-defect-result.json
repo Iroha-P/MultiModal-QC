@@ -1,0 +1,10 @@
+{
+  "sample": "data\\mvtec\\capsule\\test\\crack\\001.png",
+  "model": "Qwen2-VL-2B + QLoRA",
+  "result": "检测到裂纹缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。",
+  "metrics": {
+    "accuracy": "89.02%",
+    "f1": "0.893",
+    "rouge_l": "0.249"
+  }
+}

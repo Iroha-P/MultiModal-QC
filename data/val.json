@@ -1,0 +1,2238 @@
+[
+  {
+    "image": "data\\mvtec\\cable\\test\\cable_swap\\006.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到线缆错位缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\combined\\009.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到组合缺陷缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\hazelnut\\test\\hole\\007.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到孔洞缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\good\\034.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该screw产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\scratch_neck\\021.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颈部划痕缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\cut_inner_insulation\\000.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到内层绝缘切割缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\hole\\016.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到孔洞缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\hazelnut\\test\\good\\012.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该hazelnut产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\cut\\004.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到切口缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\poke\\016.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到穿孔缺陷，位于产品左侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\crack\\024.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到裂纹缺陷，位于产品右侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\toothbrush\\test\\defective\\002.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到缺陷缺陷，位于产品中央下方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\manipulated_front\\021.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到正面篡改缺陷，位于产品右侧上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\wood\\test\\color\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\hazelnut\\test\\cut\\006.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到切口缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\color\\022.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品右侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\metal_contamination\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到金属污染缺陷，位于产品中央上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\bent\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到弯曲缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_large\\004.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到大面积破损缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\leather\\test\\poke\\000.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到穿孔缺陷，位于产品左侧下方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\scratch\\015.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\042.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\combined\\013.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到组合缺陷缺陷，位于产品右侧上方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\hole\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到孔洞缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\crack\\013.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到裂纹缺陷，位于产品左侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\032.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\color\\013.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品右侧下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\scratch\\018.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\bent\\002.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到弯曲缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\split_teeth\\015.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到齿分离缺陷，位于产品中央下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_small\\010.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到小面积破损缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\good\\031.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该screw产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\oil\\015.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到油渍缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\cable_swap\\007.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到线缆错位缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\good\\057.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该cable产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\manipulated_front\\010.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到正面篡改缺陷，位于产品中央下方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\scratch\\021.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\good\\011.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该cable产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\glue\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到胶水缺陷，位于产品中央上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\combined\\013.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到组合缺陷缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\034.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\color\\010.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\wood\\test\\scratch\\014.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\good\\009.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该capsule产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\color\\009.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品右侧上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\good\\022.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该zipper产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\022.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\cut\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到切口缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\glue\\003.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到胶水缺陷，位于产品左侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\poke_insulation\\000.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到绝缘刺穿缺陷，位于产品中央下方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\leather\\test\\cut\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到切口缺陷，位于产品中央上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\color\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品中央下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\cut_inner_insulation\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到内层绝缘切割缺陷，位于产品中央上方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\missing_cable\\000.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到缺失线缆缺陷，位于产品中央上方，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\oil\\003.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到油渍缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\rough\\000.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到粗糙缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\toothbrush\\test\\defective\\026.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到缺陷缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\combined\\002.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到组合缺陷缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\contamination\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到污染缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\flip\\000.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到翻转缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\good\\003.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该metal_nut产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\leather\\test\\glue\\000.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到胶水缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\good\\018.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该metal_nut产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\rough\\011.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到粗糙缺陷，位于产品右侧中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\good\\031.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该zipper产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\good\\050.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该cable产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\cut\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到切口缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\color\\014.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\026.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\broken\\003.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到断裂缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\contamination\\017.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到污染缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\scratch_neck\\015.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颈部划痕缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\scratch_neck\\004.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颈部划痕缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\faulty_imprint\\014.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到印记不良缺陷，位于产品右侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\good\\024.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该zipper产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\hole\\009.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到孔洞缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\crack\\022.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到裂纹缺陷，位于产品中央上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\toothbrush\\test\\defective\\017.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到缺陷缺陷，位于产品右侧下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\hazelnut\\test\\crack\\010.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到裂纹缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\bent\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到弯曲缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\scratch\\000.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品右侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\combined\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到组合缺陷缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\leather\\test\\color\\006.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品左侧上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\good\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该bottle产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\cut_outer_insulation\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到外层绝缘切割缺陷，位于产品中央下方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\thread\\005.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到线头缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\cut_inner_insulation\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到内层绝缘切割缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\good\\021.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该tile产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\024.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\good\\002.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该cable产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_large\\014.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到大面积破损缺陷，位于产品左侧下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\split_teeth\\002.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到齿分离缺陷，位于产品中央上方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\thread_side\\015.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到螺纹侧面缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\thread\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到线头缺陷，位于产品中央下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\manipulated_front\\017.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到正面篡改缺陷，位于产品右侧上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\thread_side\\014.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到螺纹侧面缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\contamination\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到污染缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\leather\\test\\cut\\003.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到切口缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\cut_inner_insulation\\012.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到内层绝缘切割缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\metal_contamination\\014.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到金属污染缺陷，位于产品中央下方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\glue\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到胶水缺陷，位于产品中央上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\crack\\014.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到裂纹缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\color\\015.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品中央下方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\scratch\\007.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品中央上方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\scratch\\011.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\leather\\test\\good\\020.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该leather产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\split_teeth\\006.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到齿分离缺陷，位于产品中央上方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\toothbrush\\test\\defective\\022.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到缺陷缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\broken_teeth\\007.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到断齿缺陷，位于产品中央上方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\hazelnut\\test\\hole\\003.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到孔洞缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\035.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\good\\010.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该carpet产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\cut_lead\\007.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到切断引脚缺陷，位于产品左侧下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\fabric_border\\002.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到面料边界缺陷，位于产品左侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\hole\\004.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到孔洞缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\good\\002.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该metal_nut产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\crack\\006.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到裂纹缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\good\\004.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该screw产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\broken_teeth\\018.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到断齿缺陷，位于产品中央下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\scratch\\016.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品右侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\manipulated_front\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到正面篡改缺陷，位于产品中央上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\crack\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到裂纹缺陷，位于产品左侧上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\rough\\013.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到粗糙缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\faulty_imprint\\006.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到印记不良缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\faulty_imprint\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到印记不良缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\good\\014.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该screw产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\cut_outer_insulation\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到外层绝缘切割缺陷，位于产品右侧下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\crack\\023.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到裂纹缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\wood\\test\\color\\003.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品中央中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\good\\032.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该cable产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\good\\019.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该zipper产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\combined\\009.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到组合缺陷缺陷，位于产品中央上方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\bent\\011.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到弯曲缺陷，位于产品中央上方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\combined\\010.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到组合缺陷缺陷，位于产品中央中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\bent\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到弯曲缺陷，位于产品中央上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\hazelnut\\test\\good\\034.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该hazelnut产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\leather\\test\\glue\\018.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到胶水缺陷，位于产品右侧上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\poke_insulation\\006.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到绝缘刺穿缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_small\\019.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到小面积破损缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\faulty_imprint\\002.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到印记不良缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\hazelnut\\test\\print\\010.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到印记缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\thread_top\\013.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到螺纹顶部缺陷，位于产品中央下方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_large\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到大面积破损缺陷，位于产品中央下方，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\good\\010.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该screw产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\screw\\test\\good\\028.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该screw产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\scratch\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品右侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\leather\\test\\good\\021.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该leather产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\wood\\test\\scratch\\018.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\split_teeth\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到齿分离缺陷，位于产品中央下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\fabric_interior\\002.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到面料内部缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\wood\\test\\hole\\003.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到孔洞缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\gray_stroke\\004.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到灰色笔触缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\hazelnut\\test\\good\\016.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该hazelnut产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\good\\009.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该tile产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\cable\\test\\missing_wire\\004.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到缺失线芯缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\good\\022.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该pill产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\carpet\\test\\color\\000.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品左侧中部，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\good\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该pill产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\grid\\test\\metal_contamination\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到金属污染缺陷，位于产品右侧上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\048.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\transistor\\test\\good\\053.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该transistor产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\bottle\\test\\broken_large\\006.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到大面积破损缺陷，位于产品中央上方，严重程度：高。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\pill\\test\\color\\020.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到颜色异常缺陷，位于产品中央上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\capsule\\test\\scratch\\001.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品右侧中部，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\metal_nut\\test\\scratch\\004.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到划痕缺陷，位于产品左侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\hazelnut\\test\\good\\006.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "该hazelnut产品表面完好，无缺陷，判定合格。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\squeezed_teeth\\014.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到齿挤压缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\rough\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到粗糙缺陷，位于产品中央下方，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\tile\\test\\gray_stroke\\008.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到灰色笔触缺陷，位于产品右侧中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\zipper\\test\\fabric_interior\\007.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到面料内部缺陷，位于产品中央上方，严重程度：轻微。建议进行质量复检。"
+      }
+    ]
+  },
+  {
+    "image": "data\\mvtec\\wood\\test\\hole\\004.png",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "<image>\n请检查这个产品图片是否存在缺陷，如有请描述缺陷类型、位置和严重程度。"
+      },
+      {
+        "role": "assistant",
+        "content": "检测到孔洞缺陷，位于产品中央中部，严重程度：中等。建议进行质量复检。"
+      }
+    ]
+  }
+]

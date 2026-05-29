@@ -1,0 +1,8 @@
+你是质量检测报告撰写员。请根据以下完整检测流程生成结构化报告：
+
+场景：{scene_type}
+感知：{perception}
+检测：{detection}
+决策：{decision}
+
+生成JSON报告，包含：verdict, confidence, defects列表, suggestion。

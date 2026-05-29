@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: serve/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+      - ./storage:/app/storage
+      - ./outputs:/app/outputs
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    command: uvicorn serve.api:app --host 0.0.0.0 --port 8000
+
+  gradio:
+    build:
+      context: .
+      dockerfile: serve/Dockerfile
+    ports:
+      - "7860:7860"
+    depends_on:
+      - api
+    environment:
+      - API_URL=http://api:8000
+    command: python serve/app.py

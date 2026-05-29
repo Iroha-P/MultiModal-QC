@@ -1,0 +1,6 @@
+根据以下检测结果，提取缺陷信息。
+
+检测描述：{perception}
+
+请以JSON格式输出：{{"has_defect": true/false, "defect_type": "缺陷类型", "location": "位置", "severity": "严重程度", "details": "详细描述"}}
+如果产品合格，has_defect设为false。

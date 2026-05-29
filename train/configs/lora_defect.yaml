@@ -1,0 +1,31 @@
+model_type: qwen2-vl-2b-instruct
+model_id_or_path: models/Qwen2-VL-2B-Instruct
+template_type: qwen2-vl
+sft_type: lora
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.05
+lora_target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+freeze_vit: true
+dataset_path: data/train.json
+val_dataset_path: data/val.json
+batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 0.0001
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+num_train_epochs: 3
+max_length: 2048
+bf16: true
+gradient_checkpointing: true
+output_dir: outputs/lora_defect
+logging_steps: 10
+save_strategy: epoch
+eval_strategy: epoch
